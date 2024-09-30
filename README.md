@@ -1,1 +1,4 @@
-https://github.com/lucasmarginetfrd/MovilesParcialV2.0/blob/master/AppTest.webm
+
+
+https://github.com/user-attachments/assets/5f35cf4c-0cc1-4932-835e-98029b481055
+
