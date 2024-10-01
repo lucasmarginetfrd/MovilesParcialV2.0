@@ -115,7 +115,6 @@ class SecondActivity : AppCompatActivity() {
             if (deportistaSeleccionado != null) {
                 IntentGetter.getIntent(deportistaSeleccionado.nombre, deportistaSeleccionado.deporte, deportistaSeleccionado.actividad, this)
             }
-
         }
     }
 }
