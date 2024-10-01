@@ -5,14 +5,11 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Button
 import android.widget.ListView
 import android.widget.Spinner
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class SecondActivity : AppCompatActivity() {
-    private lateinit var button: Button
     private lateinit var spinner: Spinner
     private lateinit var listView: ListView
     private lateinit var nacionalidad: String
@@ -47,6 +44,7 @@ class SecondActivity : AppCompatActivity() {
             Deportista(10,"Paula Pareto","Judo","Argentina","No"),
         )
         val nombresAr = deportistasAr.map {it.nombre}
+
         val deportistasUr = listOf(
             Deportista(11,"Enzo Francescoli","Futbol","Uruguay","No"),
             Deportista(12,"Luis Suarez","Futbol","Uruguay","Si"),
@@ -60,6 +58,7 @@ class SecondActivity : AppCompatActivity() {
             Deportista(20,"Rodrigo Bentancur","Futbol","Uruguay","Si")
         )
         val nombresUr = deportistasUr.map {it.nombre}
+
         val deportistasBr = listOf(
             Deportista(21,"Ronaldinho","Futbol","Brazil","No"),
             Deportista(22,"Pelé","Futbol","Brazil","No"),
