@@ -1,7 +1,6 @@
 package com.example.marginetcamposparcial1
 
 import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -34,8 +33,7 @@ class ThirdActivity : AppCompatActivity() {
 
         button = findViewById(R.id.button)
         button.setOnClickListener {
-            intent = Intent(this, MainActivity::class.java) //La idea era volver a la segunda pero crashea
-            startActivity(intent)
+            finish()
         }
 
     }
